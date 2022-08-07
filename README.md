@@ -18,7 +18,7 @@ EndPoint da api em django - https://movies-with-django.herokuapp.com/swagger/
 
 EndPoint da api em node(express) - https://movies-with-node.herokuapp.com/swagger/#/
 
-EndPoit da api em springBoot - https://movies-with-springboot.herokuapp.com/swagger-ui.html
+EndPoint da api em springBoot - https://movies-with-springboot.herokuapp.com/swagger-ui.html
 
 </br>
 
