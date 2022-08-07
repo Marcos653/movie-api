@@ -1,0 +1,97 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Movies",
+    "description": "Documentation from movies api",
+    "version": "1.0.0"
+  },
+  "basePath": "http://localhost:8080",
+
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+
+  "paths": {
+    "/movies": {
+      "get": {
+        "tags": ["Movies"],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/movies/find": {
+      "get": {
+        "description": "Busca de um filme pelo title, author ou genre",
+        "tags": ["Movies"],
+
+        "parameters": [
+          {
+            "in": "query",
+            "name": "search",
+            "type": "string",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+
+    "/movies/": {
+      "post": {
+        "tags": ["Movies"],
+        "security": [{ "bearerAuth": [] }],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "author": {
+                    "type": "string"
+                  },
+                  "genre": {
+                    "type": "string"
+                  }
+                },
+                "example": {
+                  "title": "Harry potter",
+                  "author": "N faço ideia n",
+                  "genre": "Aventura"
+                }
+              }
+            }
+          }
+        },
+
+        "responses": {
+          "401": {
+            "description": "Unauthorized"
+          },
+          "400": {
+            "description": "this movie already exist"
+          },
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}

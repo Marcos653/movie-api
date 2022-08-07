@@ -1,0 +1,15 @@
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/MoviesApplication.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/config/DataBaseConfig.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/model/Movie.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/model/MovieResponse.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/model/MovieUpdate.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/model/MovieRequest.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/repository/MovieRepository.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/handlers/ValidationHandler.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/handlers/ErrorFormDTO.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/shared/MovieDTO.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/service/MovieServiceImpl.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/config/Cors.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/view/controller/MovieController.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/config/SwaggerConfig.java
+/home/marcos/Desktop/movie-springBoot/movies/src/main/java/SpringBoot/movies/service/MovieService.java
